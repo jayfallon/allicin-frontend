@@ -11,6 +11,9 @@ const SlidedrawerStyles = styled.div`
   &.open {
     transform: translateY(0);
   }
+  .inner {
+    margin-top: 6rem;
+  }
 `;
 
 export default SlidedrawerStyles;

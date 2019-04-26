@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -68,7 +68,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 2;
   }
   main {
-    padding-top: 7rem;
+    padding-top: 8rem;
   }
 `;
 
