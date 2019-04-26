@@ -13,9 +13,9 @@ const Slidedrawer = props => {
         <div className="inner">
           <ul>
             <li>
-              <Link href="/workflows">
+              {/* <Link href="/workflows">
                 <a title="Workflows">Workflows</a>
-              </Link>
+              </Link> */}
             </li>
           </ul>
         </div>

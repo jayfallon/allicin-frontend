@@ -1,8 +1,8 @@
-
+import { SignIn } from '../components/Authentication';
 
 const SignOutPage = props => (
   <>
-    <h2>You have signed out.</h2>
+    <SignIn title="You have signed out." />
   </>
 );
 

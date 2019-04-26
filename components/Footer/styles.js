@@ -4,19 +4,26 @@ import media from '../MediaQueries';
 const FooterStyles = styled.footer`
   padding: 0 2rem;
   font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
+
   ${media.brotherbear`
     padding-left: calc(50vw - 512px - 20px);
     padding-right: calc(50vw - 512px - 20px);
    `}
   div.footer__inner {
-    padding: 8rem 0 12rem;
+    padding: 14rem 0 12rem;
+    display: flex;
+    justify-content: space-between;
 
-    a {
-      color: ${props => props.theme.footerLinksColor}
-      &:hover {
-        color: ${props => props.theme.footerLinksHover}
+    ul.footer__nav--list {
+      display: flex;
+      li {
+        margin-left: 1.5rem;
+      }
+      a {
+        color: ${props => props.theme.footerLinksColor};
+        &:hover {
+          color: ${props => props.theme.footerLinksHover};
+        }
       }
     }
   }

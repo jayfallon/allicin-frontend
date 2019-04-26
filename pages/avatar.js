@@ -1,12 +1,9 @@
-import Link from 'next/link';
+import { Avatar } from '../components/Personalization';
 
 const AvatarPage = props => (
-  <div>
-    <h2>Avatar</h2>
-    <Link href="/school">
-      <a title="School link">School</a>
-    </Link>
-  </div>
+  <>
+    <Avatar />
+  </>
 );
 
 export default AvatarPage;

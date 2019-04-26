@@ -1,6 +1,8 @@
+import Authentication from '../../components/Authentication';
+
 const AuthenticationPage = props => (
   <>
-    <h1>Authentication</h1>
+    <Authentication />
   </>
 );
 

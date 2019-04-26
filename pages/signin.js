@@ -2,7 +2,7 @@ import { SignIn } from '../components/Authentication';
 
 const SigninPage = props => (
   <>
-    <SignIn />
+    <SignIn title="Sign In to Allicin"/>
   </>
 );
 
