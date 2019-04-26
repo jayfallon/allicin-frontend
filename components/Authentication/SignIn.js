@@ -11,7 +11,7 @@ const SignIn = props => (
     <div className="auth__form--wrapper">
       <form>
         <fieldset>
-          <legend>Sign In to Allicin</legend>
+          <legend>{props.title}</legend>
           <div className="auth__form--group">
             <label htmlFor="email">Email Address</label>
             <input type="text" id="email" />

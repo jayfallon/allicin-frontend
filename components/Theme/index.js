@@ -25,6 +25,9 @@ const Theme = {
   footerLinksColor: Colors.funBlue,
   footerLinksHover: Colors.electricViolet,
 
+  globalNavLinksColor: Colors.white,
+  globalNavHover: Colors.tusk,
+
   pageMargin: '0 auto',
   pageWidth: '96rem',
   pagePadding: '0 2rem',
@@ -38,8 +41,9 @@ const Theme = {
   authFormBackground: Colors.white,
   inputBorder: '0.1rem solid {Colors.codGray}',
   submitButtonBg: Colors.codGray,
-  submitButtonBgH: Colors.rhino,
+  submitButtonBgH: Colors.forestGreen,
   submitButtonColor: Colors.white,
+  submitButtonHover: Colors.white,
 
   black: '#393939',
   grey: '#3A3A3A',

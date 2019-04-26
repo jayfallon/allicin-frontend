@@ -8,7 +8,23 @@ const HeaderStyles = styled.header`
   z-index: 200;
   ul.nav__global--list {
     display: flex;
+    li {
+      padding: 0 0 0 2rem;
+    }
+
+    a {
+      color: ${props => props.theme.globalNavLinksColor};
+      &:hover {
+        color: ${props => props.theme.globalNavHover};
+      }
+    }
+  }
+
+  nav.nav__global {
+    padding: 0 2rem;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   li.nav__global--list-item.toggle {

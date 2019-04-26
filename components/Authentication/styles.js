@@ -43,9 +43,14 @@ const AuthFormStyles = styled.section`
   a.auth__form--button button {
     background-color: ${props => props.theme.submitButtonBg};
     padding: 0.9rem 1.8rem;
-    border: 1px solid ${props => props.theme.submitButtonBg};
+    border: 1px solid transparent;
     color: ${props => props.theme.submitButtonColor};
     font-size: 1.8rem;
+    cursor: pointer;
+    &:hover {
+      background-color: ${props => props.theme.submitButtonBgH};
+      color: ${props => props.theme.submitButtonHover};
+    }
   }
 
   ul.auth__form--help {
