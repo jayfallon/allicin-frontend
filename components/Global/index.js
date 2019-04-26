@@ -64,11 +64,16 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${props => props.theme.bodyBackground};
     height: 100%;
+    font-family: trade-gothic-next, sans-serif;
     font-size: 1.8rem;
-    line-height: 2;
+    line-height: 1.8;
   }
   main {
     padding-top: 8rem;
+  }
+
+  #__next {
+    height: 100%;
   }
 `;
 
