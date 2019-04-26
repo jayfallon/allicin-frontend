@@ -10,23 +10,15 @@ const Slidedrawer = props => {
   return (
     <SlidedrawerStyles className={drawerClasses}>
       <nav>
-        <ul>
-          <li>
-            <Link href="/">
-              <a title="title">hello</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-              <a title="title">hello</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-              <a title="title">hello</a>
-            </Link>
-          </li>
-        </ul>
+        <div className="inner">
+          <ul>
+            <li>
+              <Link href="/workflows">
+                <a title="Workflows">Workflows</a>
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
     </SlidedrawerStyles>
   );
