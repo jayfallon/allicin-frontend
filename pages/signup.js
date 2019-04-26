@@ -1,7 +1,9 @@
+import { SignUp } from '../components/Authentication';
+
 const SignupPage = props => (
-  <div>
-    <h2>Sign Up</h2>
-  </div>
+  <>
+    <SignUp />
+  </>
 );
 
 export default SignupPage;

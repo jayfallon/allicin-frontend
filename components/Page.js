@@ -4,29 +4,31 @@ import styled, { ThemeProvider } from 'styled-components';
 import Slidedrawer from './Slidedrawer';
 import Header from './Header';
 import Meta from './Meta';
+import Footer from './Footer';
 import Theme from './Theme';
 import GlobalStyle from './Global';
 import media from './MediaQueries';
 
 const StyledPage = styled.div`
+  height: 100%;
   color: ${props => props.theme.bodyText};
 `;
 
 const InnerDiv = styled.div`
   margin: 0 auto;
-  ${media.mamabear`
-      background: red;
-      padding: 0 2rem;
-   `}
+  padding: 0 2rem;
   ${media.brotherbear`
-      background: orangeRed;
-      
+  
+    padding-left: calc(50vw - 512px - 20px);
+    padding-right: calc(50vw - 512px - 20px);
    `}
-  ${media.papabear`
-      background: gray;
-      
-   `}
-   padding: 0 calc(51.2rem / 2);
+
+  a {
+    color: ${props => props.theme.contentLinksColor};
+    &:hover {
+      color: ${props => props.theme.contentLinksHover};
+    }
+  }
 `;
 
 class Page extends Component {
@@ -54,6 +56,7 @@ class Page extends Component {
           <main>
             <InnerDiv>{this.props.children}</InnerDiv>
           </main>
+          <Footer />
         </StyledPage>
       </ThemeProvider>
     );

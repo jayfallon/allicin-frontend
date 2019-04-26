@@ -1,7 +1,9 @@
-const Signout = props => (
-  <div>
-    <h2>Signout</h2>
-  </div>
+
+
+const SignOutPage = props => (
+  <>
+    <h2>You have signed out.</h2>
+  </>
 );
 
-export default Signout;
+export default SignOutPage;

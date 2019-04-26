@@ -1,7 +1,9 @@
+import { SignIn } from '../components/Authentication';
+
 const SigninPage = props => (
-  <div>
-    <h2>Sign In</h2>
-  </div>
+  <>
+    <SignIn />
+  </>
 );
 
 export default SigninPage;

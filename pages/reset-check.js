@@ -1,7 +1,9 @@
+import { ResetCheck } from '../components/Authentication';
+
 const ResetCheckPage = props => (
-  <div>
-    <h2>Check your inbox</h2>
-  </div>
+  <>
+    <ResetCheck />
+  </>
 );
 
 export default ResetCheckPage;
