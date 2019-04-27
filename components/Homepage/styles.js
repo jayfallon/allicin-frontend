@@ -6,6 +6,11 @@ const HomepageStyles = styled.section`
     display: flex;
     justify-content: flex-end;
   }
+
+  nav.homepage__nav li {
+    margin-left: 1.5rem;
+  }
+
   div.homepage__dash--wrapper {
     background: #fff;
     display: flex;
