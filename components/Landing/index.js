@@ -5,7 +5,7 @@ import LandingStyles from './styles';
 const Landing = props => (
   <LandingStyles>
     <div className="landing__page--wrapper">
-      <h2>Welcome to Allicinxxx</h2>
+      <h2>Welcome to Allicin</h2>
       <p>
         Allicin is a lightweight learning management system (LMS) complete with
         class/course building and scheduling tools that will enable instructors
