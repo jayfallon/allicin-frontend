@@ -1,12 +1,11 @@
 import Link from 'next/link';
 
+import { SearchSchools } from '../components/Search';
+
 const SchoolPage = props => (
-  <div>
-    <h2>School</h2>
-    <Link href="/class">
-      <a title="Class page">Class</a>
-    </Link>
-  </div>
+  <>
+    <SearchSchools />
+  </>
 );
 
 export default SchoolPage;
